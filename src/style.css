@@ -1,0 +1,96 @@
+body {
+  background: grey;
+}
+.middle {
+  background: lightgrey;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+p {
+  text-align: center;
+}
+.themebutton {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: black;
+  cursor: pointer;
+}
+.themebutton:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.learnbutton {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  background: skyblue;
+  font-size: 15px;
+  transition: all 200ms ease-in-out;
+}
+.learnbutton:hover {
+  background: mediumblue;
+  color: #ffffff;
+}
+footer {
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+}
+.cocktails-intro-picture {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+  margin: auto 25px;
+}
+.cocktails-intro-picture img {
+  max-width: 100%;
+}
+.cocktails-intro-picture:hover {
+  filter: contrast(80%);
+  transform: scale(1.1);
+}
+.four {
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1Fr);
+  grid-gap: 20px;
+}
+.four img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: all 150ms ease-in-out;
+}
+.four img:hover {
+  transform: scale(2);
+}
+.dark {
+  background: linear-gradient(to right, #434343 0%, black 100%);
+  color: #ffffff;
+}
+.dark .middle {
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+}
